@@ -1,0 +1,24 @@
+header {
+    background-image: linear-gradient(to bottom,olivedrab,palegreen);
+    height: 4rem;
+    border-bottom: 0.1rem solid olivedrab;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    box-shadow: 5px;
+
+    &__title {
+        text-decoration: none;
+        color: black;
+        display: flex;
+        font-size: 3rem;
+    }
+    &__menuIcon:hover {
+            cursor: pointer;
+        
+    }
+}

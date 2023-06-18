@@ -1,0 +1,11 @@
+footer {
+    background-image: linear-gradient(to top, olivedrab, palegreen);
+    height: 4rem;
+    border-top: 0.1rem solid olivedrab;
+    line-height: 1.2rem;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+}

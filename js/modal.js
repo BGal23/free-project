@@ -1,15 +1,6 @@
-function filterArray(numbers, value) {
+function checkFruit(fruit) {
+    console.log(fruit.includes(fruit[1]));
 
-    let i;
-    for (i = 0; value > numbers[i]; i++) {
-        i;
-    }
-    let c = [];
-    for (i; i < numbers.length; i++) {
-        c.push(numbers[i]);
-    }
-    console.log(c);
 }
 
-
-filterArray([12, 24, 8, 41, 76], 20);
+checkFruit(["plum", "mandarin"]);

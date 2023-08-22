@@ -1,4 +1,12 @@
-let a = 3;
-let b = 4;
+const doubleChars = (value) => {
+    let array = value.split("");
+    let newArray = [];
+    for (let i of array){
+        newArray.push(i,i);
+    }
+    return newArray.join("")
+}
 
-console.log(a + b);
+
+doubleChars("Adrian");
+doubleChars("ssssnake");

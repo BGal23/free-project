@@ -1,12 +1,10 @@
-const input = 6;
-let i = 0
-
-const array = new Array(input)
-
-array.forEach((value) => {
-    
-    value++
-})
+const input = [
+    ["a", "b", "c"],
+    ["c", "d", "f"],
+    ["d", "f", "g"],
+];
 
 
-console.log(array)
+const output = input.flat()
+
+console.log(output)

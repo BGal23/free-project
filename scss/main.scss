@@ -11,3 +11,19 @@ body {
     margin: 0 auto 0;
     //border: 1px solid red;
 }
+
+.buttons-box {
+    display: flex;
+    justify-content :space-around;
+    margin: 20px;
+    padding: 20px;
+    border: 3px solid olivedrab;
+    & button {
+        background-color: olivedrab;
+        color: white;
+        border: none;
+        padding: 10px;
+        font-size: larger;
+    }
+
+}

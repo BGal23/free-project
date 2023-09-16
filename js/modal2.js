@@ -1,5 +1,5 @@
 const button = document.querySelector(".buttons-box");
-const text = document.querySelector(".text")
+const text = document.querySelector(".text");
 
 const yourText = (event) => {
     if (event.target.nodeName !== "BUTTON") {
